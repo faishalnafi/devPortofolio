@@ -13,6 +13,6 @@ class Category extends Model
 
     public function posts()
     {
-        return $this->hasMany(post::class);
+        return $this->hasMany(Post::class);
     }
 }
