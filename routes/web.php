@@ -49,4 +49,7 @@ Route::get('categories/{category:slug}', function (Category $category) {
         'category' => $category->name
     ]);
 });
+//Route::get('/home',[UserController::class,'index'])->middleware('auth');
 Route::get('/register',[UserController::class,'register']);
+Route::post('/login',[UserController::class,'login'])->name('login.sso');
+Route::get('/logout',[UserController::class,'logout'])->name('logout.sso');

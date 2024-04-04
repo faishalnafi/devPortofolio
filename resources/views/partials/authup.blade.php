@@ -14,32 +14,22 @@
                             <div class="card-body p-4 p-sm-5">
                                 <h5 class="card-title">Sign Up</h5>
                                 <p class="card-text mb-5">See your growth and get consulting support!</p>
-                                <form class="form-body">
-                                    <div class="d-grid">
-                                        <a class="btn btn-white radius-30" href="javascript:;"><span
-                                                class="d-flex justify-content-center align-items-center">
-                                                <img class="me-2" src="{{ asset('auth/images/icons/search.svg') }}"
-                                                    width="16" alt="">
-                                                <span>Sign up with Google</span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                    <div class="login-separater text-center mb-4"> <span>OR SIGN UP WITH
-                                            EMAIL</span>
-                                        <hr>
-                                    </div>
+                                <div class="d-grid">
+                                    <a class="btn btn-white radius-30" href="javascript:;"><span
+                                        class="d-flex justify-content-center align-items-center">
+                                        <img class="me-2" src="{{ asset('auth/images/icons/search.svg') }}"
+                                        width="16" alt="">
+                                        <span>Sign up with Google</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="login-separater text-center mb-4"> <span>OR SIGN UP WITH
+                                EMAIL</span>
+                                <hr>
+                            </div>
+                            <form class="form-body" action="{{ route('login.sso') }}" method="POST" >
+                                @csrf
                                     <div class="row g-3">
-                                        <div class="col-12 ">
-                                            <label for="inputName" class="form-label">Name</label>
-                                            <div class="ms-auto position-relative">
-                                                <div
-                                                    class="position-absolute top-50 translate-middle-y search-icon px-3">
-                                                    <i class="bi bi-person-circle"></i>
-                                                </div>
-                                                <input type="text" name="username" class="form-control radius-30 ps-5" id="inputName"
-                                                    placeholder="Enter Name">
-                                            </div>
-                                        </div>
                                         <div class="col-12">
                                             <label for="inputEmailAddress" class="form-label">Email Address</label>
                                             <div class="ms-auto position-relative">
@@ -47,7 +37,7 @@
                                                     class="position-absolute top-50 translate-middle-y search-icon px-3">
                                                     <i class="bi bi-envelope-fill"></i>
                                                 </div>
-                                                <input type="email" class="form-control radius-30 ps-5"
+                                                <input type="email" name="email" class="form-control radius-30 ps-5"
                                                     id="inputEmailAddress" placeholder="Email Address">
                                             </div>
                                         </div>
@@ -59,7 +49,7 @@
                                                     class="position-absolute top-50 translate-middle-y search-icon px-3">
                                                     <i class="bi bi-lock-fill"></i>
                                                 </div>
-                                                <input type="password" class="form-control radius-30 ps-5"
+                                                <input type="password" name="password" class="form-control radius-30 ps-5"
                                                     id="inputChoosePassword" placeholder="Enter Password">
                                             </div>
                                         </div>
