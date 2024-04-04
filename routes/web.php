@@ -3,6 +3,7 @@
 use App\Models\post;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\UserController;
 use App\Models\Category;
 
 /*
@@ -48,3 +49,4 @@ Route::get('categories/{category:slug}', function (Category $category) {
         'category' => $category->name
     ]);
 });
+Route::get('/register',[UserController::class,'register']);

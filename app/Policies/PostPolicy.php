@@ -20,7 +20,6 @@ class PostPolicy
     {
         //
     }
-
     /**
      * Determine whether the user can view the model.
      *
@@ -32,7 +31,6 @@ class PostPolicy
     {
         //
     }
-
     /**
      * Determine whether the user can create models.
      *

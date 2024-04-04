@@ -36,7 +36,7 @@
                                                     class="position-absolute top-50 translate-middle-y search-icon px-3">
                                                     <i class="bi bi-person-circle"></i>
                                                 </div>
-                                                <input type="email" class="form-control radius-30 ps-5" id="inputName"
+                                                <input type="text" name="username" class="form-control radius-30 ps-5" id="inputName"
                                                     placeholder="Enter Name">
                                             </div>
                                         </div>
