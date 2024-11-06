@@ -34,11 +34,15 @@
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                @auth
+
+                {{-- Sementara fitur login dinonaktifkan --}}
+                {{-- @auth
                 <li><a class="getstarted scrollto" href="/logout">Log Out</a></li>
                 @else
                 <li><a class="getstarted scrollto" href="/sso">Log In</a></li>
-                @endauth
+                @endauth --}}
+                {{-- SSO --}}
+                
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
