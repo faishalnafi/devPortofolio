@@ -29,7 +29,7 @@
                             </ul>
                         </li>
                         <li><a href="https://web.nafii.my.id/store">Store</a></li>
-                        <li><a href="https://blog.nafii.my.id">Blog Galery</a></li>
+                        <li><a href="#">Blog Galery</a></li>
                         <li><a href="#">Spotify</a></li>
                     </ul>
                 </li>
