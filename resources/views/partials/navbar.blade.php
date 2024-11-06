@@ -30,7 +30,7 @@
                         </li>
                         <li><a href="https://web.nafii.my.id/store">Store</a></li>
                         <li><a href="https://blog.nafii.my.id">Blog Galery</a></li>
-                        <li><a href="https://angel.nafii.my.id/spotify/">Spotify</a></li>
+                        <li><a href="#">Spotify</a></li>
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
