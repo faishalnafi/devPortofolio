@@ -127,6 +127,12 @@
                         <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid
                             doloremque ut possimus ipsum officia.</p>
                     </div>
+                    <div class="member-info">
+                        <h4>Adinda Qoni'ah</h4>
+                        <span>Staf</span>
+                        <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid
+                            doloremque ut possimus ipsum officia.</p>
+                    </div>
                 </div>
             </div>
 
