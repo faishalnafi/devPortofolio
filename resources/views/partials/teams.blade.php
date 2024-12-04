@@ -113,7 +113,7 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                 <div class="member">
                     <div class="member-img">
-                        <img src="{{ asset('assets/img/team/user.png') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/team/elian.jpeg') }}" class="img-fluid" alt="">
                         <div class="social">
                             <a href=""><i class="bi bi-twitter"></i></a>
                             <a href=""><i class="bi bi-facebook"></i></a>
@@ -122,7 +122,7 @@
                         </div>
                     </div>
                     <div class="member-info">
-                        <h4>Elian Hady</h4>
+                        <h4>Elian Hardiawan</h4>
                         <span>Developer</span>
                         <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid
                             doloremque ut possimus ipsum officia.</p>
