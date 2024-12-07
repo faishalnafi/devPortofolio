@@ -13,7 +13,7 @@
                 <li><a class="nav-link scrollto" href="/#about">About</a></li>
                 <li><a class="nav-link scrollto" href="/#features">Services</a></li>
                 <li><a class="nav-link scrollto" href="/#team">Team</a></li>
-                <li class="dropdown"><a href="#"><span>Fitur</span> <i class="bi bi-chevron-down"></i></a>
+                {{-- <li class="dropdown"><a href="#"><span>Fitur</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="/portofolio">Portofolio</a></li>
                         <li class="dropdown"><a href="#"><span>Sosmed</span> <i
@@ -32,7 +32,7 @@
                         <li><a href="#">Blog Galery</a></li>
                         <li><a href="#">Spotify</a></li>
                     </ul>
-                </li>
+                </li> --}}
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
 
                 {{-- Sementara fitur login dinonaktifkan --}}
