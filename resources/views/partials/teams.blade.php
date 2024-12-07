@@ -13,7 +13,7 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                 <div class="member">
                     <div class="member-img">
-                        <img src="{{ asset('assets/img/team/CEO.jpeg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/team/CEO.jpg') }}" class="img-fluid" alt="">
                         <div class="social">
                             <a href="https://twitter.com/FaishalNafi_"><i class="bi bi-twitter"></i></a>
                             <a href="https://web.facebook.com/faishal.nafi"><i class="bi bi-facebook"></i></a>
