@@ -9,7 +9,7 @@
     @include('partials.counts')
     @include('partials.value')
     @include('partials.feature')
-    @include('partials.faq')
+    @include('partials.price')
     @include('partials.teams')
     @include('partials.company')
     @include('partials.tech')
