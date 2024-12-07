@@ -6,7 +6,7 @@
                 <div class="col-lg-5 col-md-12 footer-info">
                     <a href="/" class="logo d-flex align-items-center">
                         <img src="assets/img/logo.png" alt="">
-                        <span>TransLife</span>
+                        <span>MangoTek</span>
                     </a>
                     <p>Junior Progemmer Front End Developer. Siswa aktif angkatan tahun 2020 di SMAN 3 Mojokerto .
                         Jurusan MIPA (Matematika IPA) 1, Kelas 11. Nama Faishal Nafi' R. Kelahiran Mojokerto, 18 April
