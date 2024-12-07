@@ -4,7 +4,7 @@
 
         <a href="/" class="logo d-flex align-items-center">
             <img src="{{ asset('assets/img/logo.png') }}" alt="TransLife By Nafi'">
-            <span>MangoLab</span>
+            <span>MangoTek</span>
         </a>
 
         <nav id="navbar" class="navbar">
@@ -42,6 +42,8 @@
                 <li><a class="getstarted scrollto" href="/sso">Log In</a></li>
                 @endauth --}}
                 {{-- SSO --}}
+
+                <li><a class="getstarted scrollto" href="/blog">Project</a></li>
                 
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
