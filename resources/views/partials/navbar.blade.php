@@ -4,7 +4,7 @@
 
         <a href="/" class="logo d-flex align-items-center">
             <img src="{{ asset('assets/img/logo.png') }}" alt="TransLife By Nafi'">
-            <span>MangoLab</span>
+            <span>MangoTek</span>
         </a>
 
         <nav id="navbar" class="navbar">
