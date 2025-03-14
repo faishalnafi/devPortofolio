@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Translife Corporate | <?php echo $title; ?></title>
+    <title>MangoTek Corporate | <?php echo $title; ?></title>
     <meta content="" name="description">
 
     <meta content="" name="keywords">
