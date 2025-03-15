@@ -1,0 +1,25 @@
+int led = 13; //deklarasi variabel integer untuk LED pada pin 13
+
+//rutin dijalankan sekali saat Arduino start
+
+void setup()
+{
+
+  pinMode(led, OUTPUT); // inisiasi pin LED sebagai output
+
+}
+
+//rutin dijalankan terus menerus setelah setup dijalankan
+
+void loop()
+{
+
+  digitalWrite(led, HIGH); // menulis sinyal digital HIGH(5V) ke LED
+
+  delay(1000); // menunggu 1000 milidetik
+
+  digitalWrite(led, LOW); // menulis sinyal digital LOW(0V) ke LED
+
+  delay(1000); // menunggu 1000 milidetik
+
+          }
